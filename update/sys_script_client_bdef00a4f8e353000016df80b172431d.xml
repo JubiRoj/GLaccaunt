@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>account_group</field>
+        <global>true</global>
+        <messages/>
+        <name>Account Group change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	//23eb32031513174000169b5695dca845  -- Reconciliation Account
+	//67eb32031513174000169b5695dca83d  -- Fixed Assets Accoun
+	//27eb32031513174000169b5695dca842  -- Liquid funds accounts
+	if(newValue == '23eb32031513174000169b5695dca845') {
+		g_form.setValue('recon_acct_ready_for_input', true);
+	}else{
+		
+	}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>vladimir.molodik</sys_created_by>
+        <sys_created_on>2018-07-23 12:35:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bdef00a4f8e353000016df80b172431d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Account Group change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+        <sys_update_name>sys_script_client_bdef00a4f8e353000016df80b172431d</sys_update_name>
+        <sys_updated_by>vladimir.molodik</sys_updated_by>
+        <sys_updated_on>2018-07-23 12:39:14</sys_updated_on>
+        <table>x_itgra_g_l_accoun_g_l_account_table</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

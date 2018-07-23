@@ -37,6 +37,7 @@ function doAlert(compCode) {
 	
 	//Chart of Accounts
 	//Drop Down. If 1107,1105,1095 - RU; 1332,1072-UA; 1079 - KZ; 2075-GE, 2076-AM
+	//New
 
 	if(compCode.code == '1107'||compCode.code == '1105'||compCode.code == '1095'){   
 		g_form.setValue('chart_of_accounts', '<RU> - Chart of Accounts - Russia');
@@ -62,7 +63,7 @@ function doAlert(compCode) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>150fc310f8a353000016df80b1724303</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>CompanyCode Change</sys_name>
         <sys_overrides/>
         <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
@@ -71,7 +72,7 @@ function doAlert(compCode) {
         <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
         <sys_update_name>sys_script_client_150fc310f8a353000016df80b1724303</sys_update_name>
         <sys_updated_by>vladimir.molodik</sys_updated_by>
-        <sys_updated_on>2018-07-23 09:21:48</sys_updated_on>
+        <sys_updated_on>2018-07-23 12:00:40</sys_updated_on>
         <table>x_itgra_g_l_accoun_g_l_account_table</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
