@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_itgra_g_l_accoun_field_status_group">
+    <x_itgra_g_l_accoun_field_status_group action="INSERT_OR_UPDATE">
+        <attribute/>
+        <code>U090</code>
+        <display_name>U090 -Inc Statement Accts without PA, w/</display_name>
+        <name>Inc Statement Accts without PA, w/ Ref 3</name>
+        <sys_class_name>x_itgra_g_l_accoun_field_status_group</sys_class_name>
+        <sys_created_by>vladimir.molodik</sys_created_by>
+        <sys_created_on>2018-07-19 09:48:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d73407c31513174000169b5695dca816</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>U090 -Inc Statement Accts without PA, w/</sys_name>
+        <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+        <sys_update_name>x_itgra_g_l_accoun_field_status_group_d73407c31513174000169b5695dca816</sys_update_name>
+        <sys_updated_by>vladimir.molodik</sys_updated_by>
+        <sys_updated_on>2018-07-19 09:48:13</sys_updated_on>
+        <value>U090</value>
+    </x_itgra_g_l_accoun_field_status_group>
+</record_update>

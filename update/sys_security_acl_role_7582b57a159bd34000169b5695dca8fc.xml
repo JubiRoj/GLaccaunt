@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>vladimir.molodik</sys_created_by>
+        <sys_created_on>2018-07-18 09:12:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7582b57a159bd34000169b5695dca8fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_itgra_g_l_accoun_exchange_rate_difference_key.x_itgra_g_l_accoun.user</sys_name>
+        <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+        <sys_security_acl display_value="x_itgra_g_l_accoun_exchange_rate_difference_key">3982b57a159bd34000169b5695dca8f9</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7582b57a159bd34000169b5695dca8fc</sys_update_name>
+        <sys_updated_by>vladimir.molodik</sys_updated_by>
+        <sys_updated_on>2018-07-18 09:12:44</sys_updated_on>
+        <sys_user_role display_value="x_itgra_g_l_accoun.user" name="x_itgra_g_l_accoun.user">eb619d661557d34000169b5695dca8c1</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

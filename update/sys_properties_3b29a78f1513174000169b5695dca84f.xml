@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>G/L Account Table activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_itgra_g_l_accoun_g_l_account_table_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>vladimir.molodik</sys_created_by>
+        <sys_created_on>2018-07-19 12:29:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3b29a78f1513174000169b5695dca84f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>glide.ui.x_itgra_g_l_accoun_g_l_account_table_activity.fields</sys_name>
+        <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+        <sys_update_name>sys_properties_3b29a78f1513174000169b5695dca84f</sys_update_name>
+        <sys_updated_by>vladimir.molodik</sys_updated_by>
+        <sys_updated_on>2018-07-19 12:29:55</sys_updated_on>
+        <type>string</type>
+        <value>number,account_group,account_currency,account_number,alternative_account_no,balance_sheet_account,bank_account_id,budget_owner,chart_of_accounts,comment,comment_4,company_code,copy_all_analytics_from_gl_account,sys_created_on,sys_created_by,date_of_last_interest_run,exchange_rate_difference_key,field_status_group,g_l_acct_long_text,g_l_acct_long_text_local_language,g_l_account_number,house_bank,interest_calc_frequency,interest_indicator,key_date_of_last_int_calc,language_key_local,level_1_unlimited,level_2_35_000_000_00_usd,level_3_5_000_000_00_usd,level_4_2_500_000_00_usd,level_5_500_000_00_usd,level_6_250_000_00_usd,level_7_100_000_00_usd,level_8_50_000_00_usd,line_item_display,new_in_g1,new_in_statutory,only_balances_in_local_currency,p_l_statement_acct_type,p_l_statement_acct_types,poo_level_1,poo_level_2,poo_level_3,poo_level_4,poo_level_5,poo_level_6,poo_level_7,poo_level_8,planning_level,post_automatically_only,posting_without_tax_allowed,recon_account_for_acct_type,recon_acct_ready_for_input,relevant_to_cash_flow,request_type,requestor,short_text,short_text_local_language,supplement_auto_postings,system,sys_tags,tax_category,sys_updated_on,sys_updated_by,sys_mod_count,*Email*,*Relations*,*Attachments*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=3b29a78f1513174000169b5695dca84f"/>
+</record_update>

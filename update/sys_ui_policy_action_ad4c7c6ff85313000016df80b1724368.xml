@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>account_number</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>vladimir.molodik</sys_created_by>
+        <sys_created_on>2018-07-20 13:11:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ad4c7c6ff85313000016df80b1724368</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>account_number</sys_name>
+        <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ad4c7c6ff85313000016df80b1724368</sys_update_name>
+        <sys_updated_by>vladimir.molodik</sys_updated_by>
+        <sys_updated_on>2018-07-20 13:23:37</sys_updated_on>
+        <table>x_itgra_g_l_accoun_g_l_account_table</table>
+        <ui_policy display_value="Request Type is Create Mandatory">17ca706ff85313000016df80b1724358</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

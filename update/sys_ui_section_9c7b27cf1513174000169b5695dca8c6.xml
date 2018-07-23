@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Copy all analytics" section_id="9c7b27cf1513174000169b5695dca8c6" sys_domain="global" table="x_itgra_g_l_accoun_g_l_account_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account_currency</element>
+            <position>0</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>9c22a163f8d313000016df80b1724305</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>only_balances_in_local_currency</element>
+            <position>1</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>1022a163f8d313000016df80b1724306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exchange_rate_difference_key</element>
+            <position>2</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>9022a163f8d313000016df80b1724306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tax_category</element>
+            <position>3</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>1422a163f8d313000016df80b1724306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>posting_without_tax_allowed</element>
+            <position>4</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>9422a163f8d313000016df80b1724306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>alternative_account_no</element>
+            <position>5</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>1822a163f8d313000016df80b1724306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recon_account_for_acct_type</element>
+            <position>6</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>9822a163f8d313000016df80b1724306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>line_item_display</element>
+            <position>7</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>1c22a163f8d313000016df80b1724306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sort_key</element>
+            <position>8</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>9c22a163f8d313000016df80b1724306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>field_status_group</element>
+            <position>9</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>1022a163f8d313000016df80b1724307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>post_automatically_only</element>
+            <position>10</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>9022a163f8d313000016df80b1724307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplement_auto_postings</element>
+            <position>11</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>1422a163f8d313000016df80b1724307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recon_acct_ready_for_input</element>
+            <position>12</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>9422a163f8d313000016df80b1724307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>planning_level</element>
+            <position>13</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>1822a163f8d313000016df80b1724307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>relevant_to_cash_flow</element>
+            <position>14</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>9822a163f8d313000016df80b1724307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>house_bank</element>
+            <position>15</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>1c22a163f8d313000016df80b1724307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bank_account_id</element>
+            <position>16</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>9c22a163f8d313000016df80b1724307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>1022a163f8d313000016df80b1724308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>18</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>9022a163f8d313000016df80b1724308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>19</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>1422a163f8d313000016df80b1724308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interest_indicator</element>
+            <position>20</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>9422a163f8d313000016df80b1724308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interest_calc_frequency</element>
+            <position>21</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>1822a163f8d313000016df80b1724308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comment_4</element>
+            <position>22</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>9822a163f8d313000016df80b1724308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>23</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>1c22a163f8d313000016df80b1724308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>key_date_of_last_int_calc</element>
+            <position>24</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>9c22a163f8d313000016df80b1724308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_last_interest_run</element>
+            <position>25</position>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-20 15:56:32</sys_created_on>
+            <sys_id>1022a163f8d313000016df80b1724309</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Copy all analytics" display_value="Copy all analytics" name="x_itgra_g_l_accoun_g_l_account_table" sys_domain="global" view="Default view">9c7b27cf1513174000169b5695dca8c6</sys_ui_section>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 15:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Copy all analytics</caption>
+            <header>false</header>
+            <name>x_itgra_g_l_accoun_g_l_account_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-19 12:39:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c7b27cf1513174000169b5695dca8c6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Copy all analytics</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+            <sys_update_name>sys_ui_section_9c7b27cf1513174000169b5695dca8c6</sys_update_name>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-20 10:54:41</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

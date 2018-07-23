@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="G/L Account Table" max_length="40" name="x_itgra_g_l_accoun_g_l_account_table" type="collection">
+        <element label="Account currency" max_length="32" name="account_currency" reference="x_itgra_g_l_accoun_account_currency" type="reference"/>
+        <element label="Account Group" max_length="32" name="account_group" reference="x_itgra_g_l_accoun_account_group" type="reference"/>
+        <element label="Account number" max_length="8" name="account_number" type="longint"/>
+        <element label="Alternative Account No." max_length="40" name="alternative_account_no" type="string"/>
+        <element label="Balance Sheet Account" max_length="40" name="balance_sheet_account" type="boolean"/>
+        <element label="Bank Account ID" max_length="32" name="bank_account_id" reference="x_itgra_g_l_accoun_bank_account_id" type="reference"/>
+        <element label="Budget Owner" max_length="32" name="budget_owner" reference="sys_user" type="reference"/>
+        <element label="Chart of Accounts" max_length="32" name="chart_of_accounts" reference="x_itgra_g_l_accoun_chart_of_accounts" type="reference"/>
+        <element label="Comment" max_length="400" name="comment" type="string"/>
+        <element label="Comment Section4" max_length="200" name="comment_4" type="string"/>
+        <element label="Company Code" max_length="32" name="company_code" reference="x_itgra_g_l_accoun_company_code" type="reference"/>
+        <element choice="3" default="no" label="Copy all analytics from GL account" max_length="40" name="copy_all_analytics_from_gl_account" type="choice">
+            <choice>
+                <element label="No" value="no"/>
+                <element label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element label="Date of last interest run" max_length="40" name="date_of_last_interest_run" type="glide_date"/>
+        <element label="Exchange rate difference key" max_length="32" name="exchange_rate_difference_key" reference="x_itgra_g_l_accoun_exchange_rate_difference_key" type="reference"/>
+        <element label="Field status group" max_length="32" name="field_status_group" reference="x_itgra_g_l_accoun_field_status_group" type="reference"/>
+        <element label="G/L account number" max_length="8" name="g_l_account_number" type="longint"/>
+        <element label="G/L Acct Long Text" max_length="50" name="g_l_acct_long_text" type="string"/>
+        <element label="G/L Acct Long Text local language" max_length="50" name="g_l_acct_long_text_local_language" type="string"/>
+        <element label="House Bank" max_length="32" name="house_bank" reference="x_itgra_g_l_accoun_house_bank" type="reference"/>
+        <element label="Interest calc. frequency" max_length="32" name="interest_calc_frequency" reference="x_itgra_g_l_accoun_interest_calc_frequency" type="reference"/>
+        <element label="Interest indicator" max_length="32" name="interest_indicator" reference="x_itgra_g_l_accoun_interest_indicator" type="reference"/>
+        <element label="Key date of last int. calc." max_length="40" name="key_date_of_last_int_calc" type="glide_date"/>
+        <element label="Language Key (local)" max_length="32" name="language_key_local" reference="x_itgra_g_l_accoun_language_key_local" type="reference"/>
+        <element label="Level 1 (unlimited)" max_length="4000" name="level_1_unlimited" reference="sys_user" type="glide_list"/>
+        <element label="Level 2 (35,000,000.00 USD )" max_length="4000" name="level_2_35_000_000_00_usd" reference="sys_user" type="glide_list"/>
+        <element label="Level 3 ( 5,000,000.00 USD )" max_length="4000" name="level_3_5_000_000_00_usd" reference="sys_user" type="glide_list"/>
+        <element label="Level 4 ( 2,500,000.00 USD )" max_length="4000" name="level_4_2_500_000_00_usd" reference="sys_user" type="glide_list"/>
+        <element label="Level 5 ( 500,000.00 USD )" max_length="4000" name="level_5_500_000_00_usd" reference="sys_user" type="glide_list"/>
+        <element label="Level 6  ( 250,000.00 USD )" max_length="4000" name="level_6_250_000_00_usd" reference="sys_user" type="glide_list"/>
+        <element label="Level 7 ( 100,000.00 USD )" max_length="4000" name="level_7_100_000_00_usd" reference="sys_user" type="glide_list"/>
+        <element label="Level 8 ( 50,000.00 USD )" max_length="4000" name="level_8_50_000_00_usd" reference="sys_user" type="glide_list"/>
+        <element label="Line item display" max_length="40" name="line_item_display" type="boolean"/>
+        <element choice="3" default="no" label="New in G1?" max_length="40" name="new_in_g1" type="choice">
+            <choice>
+                <element label="No" value="no"/>
+                <element label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element choice="3" default="no" label="New in Statutory?" max_length="40" name="new_in_statutory" type="choice">
+            <choice>
+                <element label="No" value="no"/>
+                <element label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Only balances in local currency" max_length="40" name="only_balances_in_local_currency" type="boolean"/>
+        <element label="Planning Level" max_length="32" name="planning_level" reference="x_itgra_g_l_accoun_planning_level" type="reference"/>
+        <element label="POO level 1" max_length="40" name="poo_level_1" type="boolean"/>
+        <element label="POO level 2" max_length="40" name="poo_level_2" type="boolean"/>
+        <element label="POO level 3" max_length="40" name="poo_level_3" type="boolean"/>
+        <element label="POO level 4" max_length="40" name="poo_level_4" type="boolean"/>
+        <element label="POO level 5" max_length="40" name="poo_level_5" type="boolean"/>
+        <element label="POO level 6" max_length="40" name="poo_level_6" type="boolean"/>
+        <element label="POO level 7" max_length="40" name="poo_level_7" type="boolean"/>
+        <element label="POO level 8" max_length="40" name="poo_level_8" type="boolean"/>
+        <element label="Posting without tax allowed" max_length="40" name="posting_without_tax_allowed" type="boolean"/>
+        <element label="Post automatically only" max_length="40" name="post_automatically_only" type="boolean"/>
+        <element label="P&amp;L Statement Acct Type" max_length="40" name="p_l_statement_acct_type" type="boolean"/>
+        <element label="P&amp;L Statement Acct Types" max_length="32" name="p_l_statement_acct_types" reference="x_itgra_g_l_accoun_p_l_statement_acct_type" type="reference"/>
+        <element label="Recon. account for acct type" max_length="32" name="recon_account_for_acct_type" reference="x_itgra_g_l_accoun_recon_account_for_acct_type" type="reference"/>
+        <element label="Recon. acct ready for input" max_length="40" name="recon_acct_ready_for_input" type="boolean"/>
+        <element label="Relevant to cash flow" max_length="40" name="relevant_to_cash_flow" type="boolean"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="Requestor" max_length="32" name="requestor" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element default="Create" label="Request Type" max_length="32" name="request_type" reference="x_itgra_g_l_accoun_request_type" type="reference"/>
+        <element label="Short Text" max_length="20" name="short_text" type="string"/>
+        <element label="Short Text local language" max_length="20" name="short_text_local_language" type="string"/>
+        <element label="Sort key" max_length="32" name="sort_key" reference="x_itgra_g_l_accoun_sort_key" type="reference"/>
+        <element label="Supplement auto. Postings" max_length="40" name="supplement_auto_postings" type="boolean"/>
+        <element label="System" max_length="32" name="system" reference="x_itgra_g_l_accoun_system" type="reference"/>
+        <element label="Tax category" max_length="32" name="tax_category" reference="x_itgra_g_l_accoun_tax_category" type="reference"/>
+        <index name="index">
+            <element name="budget_owner"/>
+        </index>
+        <index name="index2">
+            <element name="bank_account_id"/>
+        </index>
+        <index name="index3">
+            <element name="exchange_rate_difference_key"/>
+        </index>
+        <index name="index4">
+            <element name="house_bank"/>
+        </index>
+        <index name="index5">
+            <element name="account_currency"/>
+        </index>
+        <index name="index6">
+            <element name="request_type"/>
+        </index>
+        <index name="index7">
+            <element name="planning_level"/>
+        </index>
+        <index name="index8">
+            <element name="p_l_statement_acct_types"/>
+        </index>
+        <index name="index9">
+            <element name="tax_category"/>
+        </index>
+        <index name="index10">
+            <element name="interest_indicator"/>
+        </index>
+        <index name="index11">
+            <element name="sort_key"/>
+        </index>
+        <index name="index12">
+            <element name="requestor"/>
+        </index>
+        <index name="index13">
+            <element name="recon_account_for_acct_type"/>
+        </index>
+        <index name="index14">
+            <element name="system"/>
+        </index>
+        <index name="index15">
+            <element name="account_group"/>
+        </index>
+        <index name="index16">
+            <element name="field_status_group"/>
+        </index>
+        <index name="index17">
+            <element name="chart_of_accounts"/>
+        </index>
+        <index name="index18">
+            <element name="company_code"/>
+        </index>
+        <index name="index19">
+            <element name="interest_calc_frequency"/>
+        </index>
+        <index name="index20">
+            <element name="language_key_local"/>
+        </index>
+    </element>
+</database>

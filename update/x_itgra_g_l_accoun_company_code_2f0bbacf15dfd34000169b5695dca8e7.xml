@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_itgra_g_l_accoun_company_code">
+    <x_itgra_g_l_accoun_company_code action="INSERT_OR_UPDATE">
+        <attribute/>
+        <code>2075</code>
+        <display_name>2075 - Philip Morris Georgia LLC</display_name>
+        <name>Philip Morris Georgia LLC</name>
+        <sys_class_name>x_itgra_g_l_accoun_company_code</sys_class_name>
+        <sys_created_by>vladimir.molodik</sys_created_by>
+        <sys_created_on>2018-07-19 09:08:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2f0bbacf15dfd34000169b5695dca8e7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>2075 - Philip Morris Georgia LLC</sys_name>
+        <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+        <sys_update_name>x_itgra_g_l_accoun_company_code_2f0bbacf15dfd34000169b5695dca8e7</sys_update_name>
+        <sys_updated_by>vladimir.molodik</sys_updated_by>
+        <sys_updated_on>2018-07-19 09:15:04</sys_updated_on>
+        <value>2075</value>
+    </x_itgra_g_l_accoun_company_code>
+</record_update>

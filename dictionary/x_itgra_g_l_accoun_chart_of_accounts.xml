@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="x_itgra_g_l_accoun_parent_directories" label="Chart of Accounts" max_length="40" name="x_itgra_g_l_accoun_chart_of_accounts" type="collection"/>
+</database>

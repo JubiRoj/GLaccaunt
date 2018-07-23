@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>title</element>
+        <id/>
+        <label>GL account</label>
+        <language>ru</language>
+        <name>sys_app_application</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>vladimir.molodik</sys_created_by>
+        <sys_created_on>2018-07-17 12:11:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>19c151a61557d34000169b5695dca805</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GL account</sys_name>
+        <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+        <sys_update_name>sys_translated_19c151a61557d34000169b5695dca805</sys_update_name>
+        <sys_updated_by>vladimir.molodik</sys_updated_by>
+        <sys_updated_on>2018-07-17 12:11:08</sys_updated_on>
+        <value>G/L account</value>
+    </sys_translated>
+</record_update>

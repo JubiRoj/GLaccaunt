@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="x_itgra_g_l_accoun_parent_directories" label="Sort key" max_length="40" name="x_itgra_g_l_accoun_sort_key" type="collection">
+        <element label="Sort key" max_length="32" name="sort_key" reference="x_itgra_g_l_accoun_sort_key" type="reference"/>
+        <index name="index">
+            <element name="sort_key"/>
+        </index>
+    </element>
+</database>

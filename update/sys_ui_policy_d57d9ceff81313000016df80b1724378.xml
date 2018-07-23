@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_itgra_g_l_accoun_g_l_account_table">system=8bf9f2cf15dfd34000169b5695dca892^EQ<item display_table="x_itgra_g_l_accoun_system" display_value="SAP and ASM" endquery="false" field="system" goto="false" newquery="false" operator="=" or="false" value="8bf9f2cf15dfd34000169b5695dca892"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+var sections = g_form.getSections();
+	sections[4].style.display = 'none';
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+var sections = g_form.getSections();
+	sections[4].style.display = '';
+}]]></script_true>
+        <set_values/>
+        <short_description>System SAP + ASM</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>vladimir.molodik</sys_created_by>
+        <sys_created_on>2018-07-20 10:57:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d57d9ceff81313000016df80b1724378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>System SAP + ASM</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+        <sys_update_name>sys_ui_policy_d57d9ceff81313000016df80b1724378</sys_update_name>
+        <sys_updated_by>vladimir.molodik</sys_updated_by>
+        <sys_updated_on>2018-07-20 10:57:29</sys_updated_on>
+        <table>x_itgra_g_l_accoun_g_l_account_table</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

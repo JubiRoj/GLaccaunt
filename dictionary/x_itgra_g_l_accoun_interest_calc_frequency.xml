@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="x_itgra_g_l_accoun_parent_directories" label="Interest calc. frequency" max_length="40" name="x_itgra_g_l_accoun_interest_calc_frequency" type="collection"/>
+</database>

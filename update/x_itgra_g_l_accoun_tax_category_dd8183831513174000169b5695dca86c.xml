@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_itgra_g_l_accoun_tax_category">
+    <x_itgra_g_l_accoun_tax_category action="INSERT_OR_UPDATE">
+        <attribute/>
+        <code/>
+        <display_name>R9 Output VAT - Services, 18% - Foreign </display_name>
+        <name>R9 Output VAT - Services, 18% - Foreign </name>
+        <sys_class_name>x_itgra_g_l_accoun_tax_category</sys_class_name>
+        <sys_created_by>vladimir.molodik</sys_created_by>
+        <sys_created_on>2018-07-19 09:36:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dd8183831513174000169b5695dca86c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>R9 Output VAT - Services, 18% - Foreign </sys_name>
+        <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+        <sys_update_name>x_itgra_g_l_accoun_tax_category_dd8183831513174000169b5695dca86c</sys_update_name>
+        <sys_updated_by>vladimir.molodik</sys_updated_by>
+        <sys_updated_on>2018-07-19 09:36:20</sys_updated_on>
+        <value/>
+    </x_itgra_g_l_accoun_tax_category>
+</record_update>

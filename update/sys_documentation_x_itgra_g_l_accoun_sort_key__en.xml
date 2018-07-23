@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Sort key" language="en" table="x_itgra_g_l_accoun_sort_key">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Sort key</label>
+            <language>en</language>
+            <name>x_itgra_g_l_accoun_sort_key</name>
+            <plural>Sort keys</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>vladimir.molodik</sys_created_by>
+            <sys_created_on>2018-07-18 12:02:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8569967615dbd34000169b5695dca8bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sort key</sys_name>
+            <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+            <sys_update_name>sys_documentation_x_itgra_g_l_accoun_sort_key__en</sys_update_name>
+            <sys_updated_by>vladimir.molodik</sys_updated_by>
+            <sys_updated_on>2018-07-18 12:02:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Parent Directories" max_length="40" name="x_itgra_g_l_accoun_parent_directories" type="collection">
+        <element label="Attribute" max_length="40" name="attribute" type="string"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element default="javascript:current.code + ((current.code&amp;&amp;current.name)?' - ' :'')  + current.name;" display="true" label="Display Name" max_length="40" name="display_name" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Value" max_length="40" name="value" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_itgra_g_l_accoun_p_l_statement_acct_type">
+    <x_itgra_g_l_accoun_p_l_statement_acct_type action="INSERT_OR_UPDATE">
+        <attribute/>
+        <code>PL</code>
+        <display_name>PL - Retained Earnings Since Acquisition</display_name>
+        <name>Retained Earnings Since Acquisition</name>
+        <sys_class_name>x_itgra_g_l_accoun_p_l_statement_acct_type</sys_class_name>
+        <sys_created_by>vladimir.molodik</sys_created_by>
+        <sys_created_on>2018-07-19 09:16:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ddfcf6031513174000169b5695dca88d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PL - Retained Earnings Since Acquisition</sys_name>
+        <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+        <sys_update_name>x_itgra_g_l_accoun_p_l_statement_acct_type_ddfcf6031513174000169b5695dca88d</sys_update_name>
+        <sys_updated_by>vladimir.molodik</sys_updated_by>
+        <sys_updated_on>2018-07-19 09:16:43</sys_updated_on>
+        <value/>
+    </x_itgra_g_l_accoun_p_l_statement_acct_type>
+</record_update>

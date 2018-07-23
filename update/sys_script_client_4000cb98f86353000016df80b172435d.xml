@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>g_l_acct_long_text</field>
+        <global>true</global>
+        <messages/>
+        <name>G/L Acct Long Text Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var lang = g_form.getReference('language_key_local', doAlert);
+}
+
+function doAlert(lang) { 
+	//alert("longtext: " +  "; " + lang.name + " " + g_form.getValue('g_l_acct_long_text') );//lang.newValue +
+	if(lang.name == 'English'){
+		g_form.setValue('g_l_acct_long_text_local_language', g_form.getValue('g_l_acct_long_text'));
+	}	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>vladimir.molodik</sys_created_by>
+        <sys_created_on>2018-07-23 06:45:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4000cb98f86353000016df80b172435d</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>G/L Acct Long Text Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+        <sys_update_name>sys_script_client_4000cb98f86353000016df80b172435d</sys_update_name>
+        <sys_updated_by>vladimir.molodik</sys_updated_by>
+        <sys_updated_on>2018-07-23 08:41:27</sys_updated_on>
+        <table>x_itgra_g_l_accoun_g_l_account_table</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
