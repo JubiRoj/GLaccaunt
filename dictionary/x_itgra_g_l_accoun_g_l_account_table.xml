@@ -12,12 +12,8 @@
         <element label="Comment" max_length="400" name="comment" type="string"/>
         <element label="Comment Section4" max_length="200" name="comment_4" type="string"/>
         <element label="Company Code" max_length="32" name="company_code" reference="x_itgra_g_l_accoun_company_code" type="reference"/>
-        <element choice="3" default="no" label="Copy all analytics from GL account" max_length="40" name="copy_all_analytics_from_gl_account" type="choice">
-            <choice>
-                <element label="No" value="no"/>
-                <element label="Yes" value="yes"/>
-            </choice>
-        </element>
+        <element label="Copy all analytics from GL account" max_length="10" name="copy_all_analytics_from_gl_account" type="string"/>
+        <element label="Copy all analytics from GL form" max_length="32" name="copy_all_analytics_from_gl_form" reference="x_itgra_g_l_accoun_g_l_account_table" type="reference"/>
         <element label="Date of last interest run" max_length="40" name="date_of_last_interest_run" type="glide_date"/>
         <element label="Exchange rate difference key" max_length="32" name="exchange_rate_difference_key" reference="x_itgra_g_l_accoun_exchange_rate_difference_key" type="reference"/>
         <element label="Field status group" max_length="32" name="field_status_group" reference="x_itgra_g_l_accoun_field_status_group" type="reference"/>

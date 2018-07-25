@@ -12,13 +12,13 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>3</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Copy all analytics from GL account</column_label>
         <comments/>
         <create_roles/>
-        <default_value>no</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -31,9 +31,9 @@
         <element>copy_all_analytics_from_gl_account</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>10</max_length>
         <name>x_itgra_g_l_accoun_g_l_account_table</name>
         <next_element/>
         <primary>false</primary>
@@ -53,8 +53,8 @@
         <sys_created_by>vladimir.molodik</sys_created_by>
         <sys_created_on>2018-07-18 09:06:16</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>02c0f93a159bd34000169b5695dca894</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>732c018588ef530078973ea4b66068cb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Copy all analytics from GL account</sys_name>
         <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
         <sys_policy/>
@@ -62,7 +62,7 @@
         <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
         <sys_update_name>sys_dictionary_x_itgra_g_l_accoun_g_l_account_table_copy_all_analytics_from_gl_account</sys_update_name>
         <sys_updated_by>vladimir.molodik</sys_updated_by>
-        <sys_updated_on>2018-07-20 15:58:57</sys_updated_on>
+        <sys_updated_on>2018-07-25 06:44:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

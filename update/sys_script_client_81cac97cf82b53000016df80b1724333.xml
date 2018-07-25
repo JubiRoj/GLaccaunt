@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>copy_all_analytics_from_gl_form</field>
+        <global>true</global>
+        <messages/>
+        <name>Copy all Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+  	var copy = g_form.getReference('copy_all_analytics_from_gl_form', doAlert); 
+}
+
+function doAlert(copy) { 
+	
+	//g_form.setValue('', copy['']);
+	//alert("!!account_currency: "+copy['account_currency']);
+	g_form.setValue('account_currency', copy['account_currency']);
+	g_form.setValue('only_balances_in_local_currency', copy['only_balances_in_local_currency']);
+	g_form.setValue('exchange_rate_difference_key', copy['exchange_rate_difference_key']);
+	g_form.setValue('tax_category', copy['tax_category']);
+	g_form.setValue('posting_without_tax_allowed', copy['posting_without_tax_allowed']);
+	g_form.setValue('alternative_account_no', copy['alternative_account_no']);
+	g_form.setValue('recon_account_for_acct_type', copy['recon_account_for_acct_type']);
+	
+	g_form.setValue('relevant_to_cash_flow', copy['relevant_to_cash_flow']);
+	g_form.setValue('house_bank', copy['house_bank']);
+	g_form.setValue('bank_account_id', copy['bank_account_id']);
+	
+	g_form.setValue('line_item_display', copy['line_item_display']);
+	g_form.setValue('sort_key', copy['sort_key']);
+	g_form.setValue('field_status_group', copy['field_status_group']);
+	g_form.setValue('post_automatically_only', copy['post_automatically_only']);
+	g_form.setValue('supplement_auto_postings', copy['supplement_auto_postings']);
+	g_form.setValue('recon_acct_ready_for_input', copy['recon_acct_ready_for_input']);
+	g_form.setValue('planning_level', copy['planning_level']);
+	
+	g_form.setValue('interest_indicator', copy['interest_indicator']);
+	g_form.setValue('interest_calc_frequency', copy['interest_calc_frequency']);
+	g_form.setValue('key_date_of_last_int_calc', copy['key_date_of_last_int_calc']);
+	g_form.setValue('date_of_last_interest_run', copy['date_of_last_interest_run']);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>vladimir.molodik</sys_created_by>
+        <sys_created_on>2018-07-24 11:27:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81cac97cf82b53000016df80b1724333</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Copy all Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+        <sys_update_name>sys_script_client_81cac97cf82b53000016df80b1724333</sys_update_name>
+        <sys_updated_by>vladimir.molodik</sys_updated_by>
+        <sys_updated_on>2018-07-25 07:05:50</sys_updated_on>
+        <table>x_itgra_g_l_accoun_g_l_account_table</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

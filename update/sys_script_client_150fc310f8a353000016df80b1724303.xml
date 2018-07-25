@@ -24,13 +24,13 @@ function doAlert(compCode) {
 	//Language Key (local)   
 	//Drop Down, dependent on Company code (1107, 1105, 1095, 1079 - "Russian", 1332, 1072 - "Ukrainian"), 2075,2076 - English. Editable for users
 	if(compCode.code == '1107'||compCode.code == '1105'||compCode.code == '1095'||compCode.code == '1079'){
-		g_form.setValue('language_key_local', 'Russian');
+		g_form.setValue('language_key_local', '345b3ecf15dfd34000169b5695dca884');//'Russian'
 	}else
 	if(compCode.code == '1332'||compCode.code == '1072'){
-		g_form.setValue('language_key_local', 'Ukranian');
+		g_form.setValue('language_key_local', '835b7acf15dfd34000169b5695dca865');//'Ukranian'
 	}else
 	if(compCode.code == '2075'||compCode.code == '2076'){
-		g_form.setValue('language_key_local', 'English');
+		g_form.setValue('language_key_local', 'f46b3ecf15dfd34000169b5695dca898');//'English'
 	}else{
 		g_form.setValue('language_key_local', '');
 	}
@@ -40,19 +40,19 @@ function doAlert(compCode) {
 	//New
 
 	if(compCode.code == '1107'||compCode.code == '1105'||compCode.code == '1095'){   
-		g_form.setValue('chart_of_accounts', '<RU> - Chart of Accounts - Russia');
+		g_form.setValue('chart_of_accounts', 'd73ebe031513174000169b5695dca876');//'<RU> - Chart of Accounts - Russia'
 	}else
 	if(compCode.code == '1332'||compCode.code == '1072'){
-		g_form.setValue('chart_of_accounts', '<UA> - Chart of Accounts - Ukraine');
+		g_form.setValue('chart_of_accounts', '9b3ebe031513174000169b5695dca878');//'<UA> - Chart of Accounts - Ukraine'
 	}else
 	if(compCode.code == '1079'){
-		g_form.setValue('chart_of_accounts', '<KZ> - Chart of Accounts - Kazakhstan');
+		g_form.setValue('chart_of_accounts', '133ebe031513174000169b5695dca87a');//'<KZ> - Chart of Accounts - Kazakhstan'
 	}else	
 	if(compCode.code == '2075'){
-		g_form.setValue('chart_of_accounts', '<GE> - Chart of Accounts - Georgia');
+		g_form.setValue('chart_of_accounts', '973ebe031513174000169b5695dca87b');//'<GE> - Chart of Accounts - Georgia'
 	}else
 	if(compCode.code == '2076'){
-		g_form.setValue('chart_of_accounts', '<AM> - Chart of Accounts - Armenia');
+		g_form.setValue('chart_of_accounts', '1f3ebe031513174000169b5695dca87c');//'<AM> - Chart of Accounts - Armenia'
 	}
 	
 }]]></script>
@@ -63,7 +63,7 @@ function doAlert(compCode) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>150fc310f8a353000016df80b1724303</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>CompanyCode Change</sys_name>
         <sys_overrides/>
         <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
@@ -72,7 +72,7 @@ function doAlert(compCode) {
         <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
         <sys_update_name>sys_script_client_150fc310f8a353000016df80b1724303</sys_update_name>
         <sys_updated_by>vladimir.molodik</sys_updated_by>
-        <sys_updated_on>2018-07-23 12:00:40</sys_updated_on>
+        <sys_updated_on>2018-07-24 10:59:41</sys_updated_on>
         <table>x_itgra_g_l_accoun_g_l_account_table</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -53,16 +53,16 @@
         <sys_created_by>vladimir.molodik</sys_created_by>
         <sys_created_on>2018-07-18 12:11:47</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>288bdab615dbd34000169b5695dca802</sys_id>
+        <sys_id>a32c018588ef530078973ea4b6606865</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_itgra_g_l_accoun_interest_indicator</sys_name>
         <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
-        <sys_update_name>sys_dictionary_x_itgra_g_l_accoun_interest_indicator_null</sys_update_name>
-        <sys_updated_by>vladimir.molodik</sys_updated_by>
-        <sys_updated_on>2018-07-18 12:11:47</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_itgra_g_l_accoun_interest_indicator_NULL</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-25 06:11:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
