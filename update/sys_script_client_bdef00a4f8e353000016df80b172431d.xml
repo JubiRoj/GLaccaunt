@@ -17,7 +17,7 @@
 	//23eb32031513174000169b5695dca845  -- Reconciliation Account
 	//67eb32031513174000169b5695dca83d  -- Fixed Assets Accoun
 	//27eb32031513174000169b5695dca842  -- Liquid funds accounts
-	if(newValue == '23eb32031513174000169b5695dca845') {
+	if(newValue == '23eb32031513174000169b5695dca845') { //23eb32031512174000169b5695dca845 --  Reconciliation Account
 		g_form.setValue('recon_acct_ready_for_input', true);
 	}else{
 		
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bdef00a4f8e353000016df80b172431d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Account Group change</sys_name>
         <sys_overrides/>
         <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
@@ -42,7 +42,7 @@
         <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
         <sys_update_name>sys_script_client_bdef00a4f8e353000016df80b172431d</sys_update_name>
         <sys_updated_by>vladimir.molodik</sys_updated_by>
-        <sys_updated_on>2018-07-23 12:39:14</sys_updated_on>
+        <sys_updated_on>2018-07-25 15:04:57</sys_updated_on>
         <table>x_itgra_g_l_accoun_g_l_account_table</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
