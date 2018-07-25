@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_itgra_g_l_accoun_g_l_account_table">request_type=6b8d5eae1597d34000169b5695dca822^EQ<item display_table="x_itgra_g_l_accoun_request_type" display_value="Change" endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="6b8d5eae1597d34000169b5695dca822"/>
+        <conditions table="x_itgra_g_l_accoun_g_l_account_table">request_type=6b8d5eae1597d34000169b5695dca822^EQ<item endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="6b8d5eae1597d34000169b5695dca822"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

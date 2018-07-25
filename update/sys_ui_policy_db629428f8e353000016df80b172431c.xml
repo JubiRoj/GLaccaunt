@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_itgra_g_l_accoun_g_l_account_table">account_group=27eb32031513174000169b5695dca842^copy_all_analytics_from_gl_formISNOTEMPTY^EQ<item display_table="x_itgra_g_l_accoun_account_group" display_value="Liquid funds accounts" endquery="false" field="account_group" goto="false" newquery="false" operator="=" or="false" value="27eb32031513174000169b5695dca842"/>
+        <conditions table="x_itgra_g_l_accoun_g_l_account_table">account_group=27eb32031513174000169b5695dca842^copy_all_analytics_from_gl_formISNOTEMPTY^EQ<item endquery="false" field="account_group" goto="false" newquery="false" operator="=" or="false" value="27eb32031513174000169b5695dca842"/>
             <item endquery="false" field="copy_all_analytics_from_gl_form" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>

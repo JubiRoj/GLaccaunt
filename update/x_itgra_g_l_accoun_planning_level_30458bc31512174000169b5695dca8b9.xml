@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_itgra_g_l_accoun_planning_level">
+    <x_itgra_g_l_accoun_planning_level action="INSERT_OR_UPDATE">
+        <attribute>Wires In</attribute>
+        <code>B2</code>
+        <display_name>B2 - IncoIncoming Wire Transfers Wires I</display_name>
+        <name>IncoIncoming Wire Transfers</name>
+        <sys_class_name>x_itgra_g_l_accoun_planning_level</sys_class_name>
+        <sys_created_by>vladimir.molodik</sys_created_by>
+        <sys_created_on>2018-07-19 09:52:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>30458bc31512174000169b5695dca8b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>B2 - IncoIncoming Wire Transfers Wires I</sys_name>
+        <sys_package display_value="G/L account" source="x_itgra_g_l_accoun">136195661557d34000169b5695dca8f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="G/L account">136195661557d34000169b5695dca8f0</sys_scope>
+        <sys_update_name>x_itgra_g_l_accoun_planning_level_30458bc31512174000169b5695dca8b9</sys_update_name>
+        <sys_updated_by>vladimir.molodik</sys_updated_by>
+        <sys_updated_on>2018-07-19 09:52:41</sys_updated_on>
+        <value>B2</value>
+    </x_itgra_g_l_accoun_planning_level>
+</record_update>
